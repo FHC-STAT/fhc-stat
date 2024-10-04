@@ -20,7 +20,6 @@ body {
   margin: 0 auto;
   justify-content: center;
   text-align: center;
-  overflow-y: scroll;
   padding-left: 10px;
 }
 
@@ -110,6 +109,7 @@ h2 {
   font-size: 18px;
   margin-top: 30px;
   margin-bottom: 2px;
+  margin-left: 15px;
 }
 
 tr.not-working td {
@@ -117,7 +117,7 @@ tr.not-working td {
 }
 
 .schema {
-  margin-right: 12px;
+  margin-right: 10px;
 }
 
 .hello {
@@ -125,7 +125,7 @@ tr.not-working td {
 }
 
 .welcome1 {
-  margin-right: 19px;
+  margin-right: 9px;
 }
 
 .active {
@@ -133,7 +133,8 @@ tr.not-working td {
 }
 
 footer {
-  margin-right: 19px;
+  margin-bottom: 10px;
+  margin-right: 12px;
 }
 
 .selector {
@@ -144,8 +145,8 @@ footer {
 
 .selector li {
   display: inline-block;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .selector li a {
@@ -169,6 +170,10 @@ footer {
 .working {
   font-weight: 700;
   color: white;
+}
+
+.welcome {
+  margin-left: 15px;
 }
 
 /* Gör tabellen responsiv */
